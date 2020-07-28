@@ -74,6 +74,7 @@ namespace WebStore
                 options.SlidingExpiration = true;
             });
 
+
             // Добавляем разрешение зависимости
             //services.AddSingleton<InMemoryEmployeeService>();
             services.AddSingleton<IEmployeesService, InMemoryEmployeeService>();
